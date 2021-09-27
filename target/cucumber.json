@@ -1,0 +1,265 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-27T15:12:39.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2210512200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To test the login functionality for valid users",
+        "description": "",
+        "id": "login-feature-for-swaglab;to-test-the-login-functionality-for-valid-users",
+        "after": [
+          {
+            "result": {
+              "duration": 311627600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2210600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User has launched swaglab application",
+            "match": {
+              "location": "LoginSteps.user_has_launched_swaglab_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383968600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters username \"standard_user\" password \"secret_sauce\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_something_password_something_and_click_on_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169163200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to see the home page",
+            "match": {
+              "location": "LoginSteps.user_should_be_able_to_see_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T15:12:42.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1555299500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To test the login functionality for invalid users",
+        "description": "",
+        "id": "login-feature-for-swaglab;to-test-the-login-functionality-for-invalid-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 250602700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 827500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has launched swaglab application",
+            "match": {
+              "location": "LoginSteps.user_has_launched_swaglab_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259247200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username \"standard_user\" password \"123123\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "123123",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_something_password_something_and_click_on_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55678800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be getting the error",
+            "match": {
+              "location": "LoginSteps.User_should_be_getting_the_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T15:12:44.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1710500300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To test the login functionality for invalid users",
+        "description": "",
+        "id": "login-feature-for-swaglab;to-test-the-login-functionality-for-invalid-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 332739200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 973200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has launched swaglab application",
+            "match": {
+              "location": "LoginSteps.user_has_launched_swaglab_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345760200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username \"asdasdasd\" password \"secret_sauce\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "asdasdasd",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_something_password_something_and_click_on_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53256600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be getting the error",
+            "match": {
+              "location": "LoginSteps.User_should_be_getting_the_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature for SwagLab",
+    "description": "",
+    "id": "login-feature-for-swaglab",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
